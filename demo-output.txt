@@ -1,0 +1,68 @@
+## switches
+5 + 3 = 8
+0101 + 0011 = 1000
+## surprise
+coin flip    : 1.0 bit
+one of 8     : 3.0 bits
+die roll     : 2.58 bits
+fair coin H  : 1.0
+90/10 coin H : 0.469
+99/1 coin H  : 0.081
+## letters
+characters   : 1059580
+' ' 19.7 %
+'e' 9.5 %
+'t' 7.0 %
+'o' 6.7 %
+'a' 6.0 %
+'i' 5.4 %
+all equal    : 4.75 bits per letter
+real English : 4.08 bits
+## markov
+order -: lxmahpolyziokrfpdidxcsyhqvysdicwbujoqckmjstfqonphayq bwzlvzy
+order 0: nairae teh baw anr iofhwldeake oalm mmrod dhlelemt lel ued o
+order 1: thit icheech inobanor clucowiowa iovelor d dschy ou ghuss d 
+order 2: wous i loo alt hemare meato by dom bleet theyed vit ay evil 
+order 3: berty with to roof there englisleepern might naile letted s 
+order 4: id you keep as to prither christop a pie in my jesu what fel
+order 5: ck his consents to my troth as this titleless froth moderate
+## words
+after "my": [('lord', 363), ('heart', 86), ('father', 84), ('brother', 68), ('life', 61)]
+the best robes like all have you are both tribunes that roar d over
+## predict
+last 0 letters: 4.07 bits  perplexity 16.8
+last 1 letters: 3.34 bits  perplexity 10.1
+last 2 letters: 2.81 bits  perplexity 7.0
+last 3 letters: 2.40 bits  perplexity 5.3
+last 4 letters: 2.20 bits  perplexity 4.6
+last 5 letters: 2.30 bits  perplexity 4.9
+last 6 letters: 2.63 bits  perplexity 6.2
+## huffman
+' ' 00
+'e' 1110
+'t' 1100
+'o' 1011
+'a' 1001
+'z' 1101011000 'q' 1101011010
+fixed 5 bits : 662237 bytes
+huffman      : 546951 bytes 4.13 bits per letter
+zlib         : 377942 bytes 2.85 bits per letter
+## channel
+repeat x1 : errors 10.0695%  rate 1.000
+repeat x3 : errors 2.8460%  rate 0.333
+repeat x5 : errors 0.8685%  rate 0.200
+repeat x7 : errors 0.2860%  rate 0.143
+repeat x9 : errors 0.0920%  rate 0.111
+repeat x11: errors 0.0250%  rate 0.091
+capacity p=0.1: 0.531 bits per bit
+## hamming
+send   : 0110011
+receive: 0110111
+checks say position 5 -> data 1011
+## secret
+cipher : 8c114acc299b99fca4ec485156de
+decrypt: ATTACK AT DAWN
+other key: RETREAT AT TEN
+## chess
+perfect play value: 0
+positions examined: 5478
